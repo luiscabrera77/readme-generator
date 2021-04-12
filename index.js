@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/readme-template");
+const generateReadme = require("./utils/readme-template");
 // promisify returns responses in a promise object vs a callback function
 const util = require("util");
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -12,7 +12,7 @@ function startQuestions() {
     {
       name: "user_github",
       type: "input",
-      message: "What is your GitHub username? (Required)",
+      message: "GitHub username (Required):",
       validate: nameInput => {
         if (nameInput) {
           return true;
@@ -25,7 +25,7 @@ function startQuestions() {
     {
       name: "user_email",
       type: "input",
-      message: "What is your email? (Required)",
+      message: "Contact email (Required):",
       validate: emailInput => {
         if (emailInput) {
           return true;
@@ -38,9 +38,9 @@ function startQuestions() {
     {
       name: "user_contact",
       type: "list",
-      message: "What is the best way to contact you?",
-      choices: ['Just Pull Request', 'Write me a detailed email', 'Let\'s have a Zoom call first'],
-      default: "Just Pull Request",
+      message: "Best way to engage with you on this project?",
+      choices: ['just do a Pull Request', 'write me a detailed email', 'schedule a Zoom call'],
+      default: "just do a Pull Request",
       validate: contactInput => {
         if (contactInput) {
           return true;
@@ -53,7 +53,7 @@ function startQuestions() {
     {
       name: "project_title",
       type: "input",
-      message: "What is the name of your project? (Required)",
+      message: "Project Name (Required):",
       validate: titleInput => {
         if (titleInput) {
           return true;
@@ -66,7 +66,7 @@ function startQuestions() {
     {
       name: "project_description",
       type: "input",
-      message: "Describe your project? (Required)",
+      message: "Project Description (Required):",
       validate: descriptionInput => {
         if (descriptionInput) {
           return true;
@@ -79,7 +79,7 @@ function startQuestions() {
     {
       name: "project_installation",
       type: "input",
-      message: "Provide Installation Instructions (Required)",
+      message: "Installation Instructions (Required):",
       validate: instructionsInput => {
         if (instructionsInput) {
           return true;
@@ -92,7 +92,7 @@ function startQuestions() {
     {
       name: "project_usage",
       type: "input",
-      message: "How to use your Project (Required)",
+      message: "How to use the Project (Required):",
       validate: usageInput => {
         if (usageInput) {
           return true;
@@ -105,7 +105,7 @@ function startQuestions() {
     {
       name: "project_contributing",
       type: "input",
-      message: "Guideliness to contribue to your project (Optional)",
+      message: "Guideliness to contribue to the project (Optional)",
     },
     {
       name: "project_test",
@@ -115,22 +115,19 @@ function startQuestions() {
     {
       name: "project_license",
       type: "list",
-      message: "Choose an Open Source License (Required)",
+      message: "Select an Open Source License (Required):",
       // Choices from https://gist.github.com/ulises-jeremias/ebcacbc50c64d4e04bc8b161e2fa44a9
-      choices: ['ISC', 'GNU-GPL', 'MIT'],
+      choices: ['ISC', 'GNU/GPL', 'MIT'],
       default: 'MIT'
     },
-    
   ])
 };
-
-
 
 // TODO: Create a function to initialize app and write README file
 async function init() {
   try {
       const info = await startQuestions();
-      const generateContent = generateMarkdown(info);
+      const generateContent = generateReadme(info);
       await writeFileAsync('./src/README.md', generateContent);
       console.log('README succesfully generated.');
   } catch (err) {

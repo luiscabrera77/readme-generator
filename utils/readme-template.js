@@ -1,30 +1,17 @@
-// Desired Output per acceptance criteria:
-
-// Title (bagdes)
-// Description
-// Table of Contents (links)
-// Installation 
-// Usage
-// License 
-// Contributing 
-// Tests 
-// Questions
-// - Github username
-// - Email
-// - Contact Details
-
-// MISSING BADGES....
 const licenseMIT = `
-MIT License Copyright\n
-(view most recent version at https://spdx.org/licenses/MIT.html)\n
+MIT License Copyright
+(view most recent version at https://spdx.org/licenses/MIT.html)
+
 Permission is hereby granted, free of charge, to any person obtaining a copy 
-of this software and associated documentation files (the \"Software\"), to deal 
+of this software and associated documentation files (the "Software"), to deal 
 in the Software without restriction, including without limitation the rights 
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
 copies of the Software, and to permit persons to whom the Software is 
-furnished to do so, subject to the following conditions:\n 
+furnished to do so, subject to the following conditions:
+
 The above copyright notice and this permission notice shall be included in all 
-copies or substantial portions of the Software.\n
+copies or substantial portions of the Software.
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
@@ -63,8 +50,6 @@ Copyright and license notices must be preserved. Contributors provide
 an express grant of patent rights.
 `;
 
-
-
 function generateMarkdown(info) {
 
   if (info.project_license == 'MIT') {
@@ -83,7 +68,11 @@ function generateMarkdown(info) {
 
 ## Description
 ![badge](https://img.shields.io/badge/license-${info.project_license}-blue)
+
 ${info.project_description}
+
+##Screenshot:
+![Screenshots](copy here URL of your app screenshot)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -104,6 +93,7 @@ ${licenseDetail}
 
 ## Contributing
 If you would like to contribute to this project, please keep in mind:
+
 ${info.project_contributing}. 
 
 ## Tests
@@ -112,7 +102,7 @@ ${info.project_test}
 ## Questions
 Find me on Github as: [${info.user_github}](https://github.com/${info.user_github})
 
-The best way to contact me is to ${info.user_contact}. 
+The best way to engage with me in this project is to ${info.user_contact}. 
 
 Happy coding!
 

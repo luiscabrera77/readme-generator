@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/luiscabrera77/readme-generator#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "inquirer": "^8.0.0"
   }
 }
