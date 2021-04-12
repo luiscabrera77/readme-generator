@@ -71,8 +71,7 @@ function generateMarkdown(info) {
 
 ${info.project_description}
 
-##Screenshot:
-![Screenshots](copy here URL of your app screenshot)
+![Screenshot](copy here URL of your app screenshot)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -92,9 +91,9 @@ ${info.project_usage}
 ${licenseDetail}
 
 ## Contributing
-If you would like to contribute to this project, please keep in mind:
+If you would like to contribute to this project:
 
-${info.project_contributing}. 
+**${info.project_contributing}**
 
 ## Tests
 ${info.project_test}
