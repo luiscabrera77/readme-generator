@@ -1,21 +1,13 @@
-// Desired Output per acceptance criteria:
-// Title (bagdes)
-// Description
-// Table of Contents (links)
-// Installation 
-// Usage
-// License 
-// Contributing 
-// Tests 
-// Questions
-// - Github username
-// - Email
-// - Contact Details
+// TODO: Include packages needed for this application
+const fs = require("fs");
+const util = require("util");
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/readme-template");
+const writeFileAsync = util.promisify(fs.writeFile);
 
-const inquirer = require("inquirer")
-
-const startQuestions = () => {
-  inquirer.prompt([
+// TODO: Create an array of questions for user input
+function startQuestions() {
+  return inquirer.prompt([
     {
       name: "user_github",
       type: "input",
@@ -131,4 +123,17 @@ const startQuestions = () => {
   ])
 };
 
-startQuestions();
+// TODO: Create a function to initialize app and write README file
+async function init() {
+  try {
+      const info = await startQuestions();
+      const generateContent = generateMarkdown(info);
+      await writeFileAsync('./src/README.md', generateContent);
+      console.log('README succesfully generated.');
+  } catch (err) {
+      console.log(err);
+  }
+}
+
+// Function call to initialize app
+init();
