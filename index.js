@@ -1,8 +1,9 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
-const util = require("util");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/readme-template");
+// promisify returns responses in a promise object vs a callback function
+const util = require("util");
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // TODO: Create an array of questions for user input
@@ -38,7 +39,7 @@ function startQuestions() {
       name: "user_contact",
       type: "list",
       message: "What is the best way to contact you?",
-      choices: ['Just Pull Request', 'Write me a detailed email', 'Let\'s have a Zoom first'],
+      choices: ['Just Pull Request', 'Write me a detailed email', 'Let\'s have a Zoom call first'],
       default: "Just Pull Request",
       validate: contactInput => {
         if (contactInput) {
@@ -113,15 +114,17 @@ function startQuestions() {
     },
     {
       name: "project_license",
-      type: "checkbox",
+      type: "list",
       message: "Choose an Open Source License (Required)",
       // Choices from https://gist.github.com/ulises-jeremias/ebcacbc50c64d4e04bc8b161e2fa44a9
-      choices: ['Apache', 'BSD', 'Creative Commons','Eclipse','GNU', 'MIT License', 'Zlib License'],
-      default: ["MIT License", "Creative Commons"]
+      choices: ['ISC', 'GNU-GPL', 'MIT'],
+      default: 'MIT'
     },
     
   ])
 };
+
+
 
 // TODO: Create a function to initialize app and write README file
 async function init() {
