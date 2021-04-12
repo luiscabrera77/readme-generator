@@ -1,13 +1,11 @@
 
 
-# sdsd
+# README generator
 
-## Summary
-![badge](https://img.shields.io/badge/license-Creative Commons,MIT License-blue)<br />
-sdsd
+## Description
+Allows user to quickly create a professional README file and spend more time on coding
 
 ## Table of Contents
-- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -16,23 +14,27 @@ sdsd
 - [Questions](#questions)
 
 ## Installation
-dsdsd
+download, init npm and install inquirer
 
 ## Usage
-sdsd
+simply run "node index" from terminal and follow the prompts
 
 ## License
 This application is covered by the Creative Commons,MIT License license. 
 <br />
-![badge](https://img.shields.io/badge/license-Creative Commons,MIT License-blue)
+
+## Contributing
+If you would like to contribute to this project, please keep in mind:
+<br />
+Just comment your code please. 
 
 ## Tests
-sdsd
+No testing Framework was used
 
 ## Questions
-Follow me on Github: [luis](https://github.com/luis)
+Find me on Github as: [luiscabrera77](https://github.com/luiscabrera77)
 <br />
-The best way to contact me is to: Just Pull Request 
+The best way to contact me is to: Write me a detailed email 
 <br />
 Happy coding!
-sdsd
+luis.cabrera@gmail.com (mailto:luis.cabrera@gmail.com)

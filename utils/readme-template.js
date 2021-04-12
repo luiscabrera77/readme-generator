@@ -13,18 +13,17 @@
 // - Email
 // - Contact Details
 
-// function & literal
+// MISSING BADGES....![badge](https://img.shields.io/badge/license-${info.project_license}-blue)<br />
+
 function generateMarkdown(info) {
   return `
 
 # ${info.project_title}
 
-## Summary
-![badge](https://img.shields.io/badge/license-${info.project_license}-blue)<br />
+## Description
 ${info.project_description}
 
 ## Table of Contents
-- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -41,18 +40,22 @@ ${info.project_usage}
 ## License
 This application is covered by the ${info.project_license} license. 
 <br />
-![badge](https://img.shields.io/badge/license-${info.project_license}-blue)
+
+## Contributing
+If you would like to contribute to this project, please keep in mind:
+<br />
+${info.project_contributing}. 
 
 ## Tests
 ${info.project_test}
 
 ## Questions
-Follow me on Github: [${info.user_github}](https://github.com/${info.user_github})
+Find me on Github as: [${info.user_github}](https://github.com/${info.user_github})
 <br />
 The best way to contact me is to: ${info.user_contact} 
 <br />
 Happy coding!
-${info.user_email}
+${info.user_email} (mailto:${info.user_email})
 `;
 }
 
