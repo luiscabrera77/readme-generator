@@ -5,7 +5,9 @@
 ## Description
 ![badge](https://img.shields.io/badge/license-MIT-blue)
 
-Allows user to quickly create a README file for Github using terminal prompts. It prompts for user details such as GitHub username, email address, and contact preferences, and asks the following details about the project: Name, Description, Installation Instructions, Usage Instructions, License, Contributing Guidelines and Testing. The output is a professionally formated README file in markup with a table of contents, links, badges and contact information.
+Allows user to quickly create a README file for Github using terminal prompts. It prompts for user details such as GitHub username, email address, and contact preferences, and asks the following details about the project: Name, Description, Installation Instructions, Usage Instructions, License, Contributing Guidelines and Testing. 
+
+The output is a professionally formated README file in markup with a table of contents, links, badges, full license texts, and contact information.
 
 ![Readme](https://user-images.githubusercontent.com/54341829/114362651-2f12be80-9b3d-11eb-8edd-916a519eb052.png)
 
@@ -18,10 +20,10 @@ Allows user to quickly create a README file for Github using terminal prompts. I
 - [Questions](#questions)
 
 ## Installation
-Download code, init npm, and npm install inquirer.
+Download code, run "init npm" in the terminal, and also "npm install inquirer".
 
 ## Usage
-Type "node index" and answer the prompts
+Type "node index" and answer the prompts. If completed succesfully, the README file will be placed in the "src" folder.
 
 ## License
 
