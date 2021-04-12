@@ -1,9 +1,9 @@
 
 
-# README generator
+# asd
 
 ## Description
-Allows user to quickly create a professional README file and spend more time on coding
+asdsad
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,10 +14,10 @@ Allows user to quickly create a professional README file and spend more time on 
 - [Questions](#questions)
 
 ## Installation
-download, init npm and install inquirer
+asdsad
 
 ## Usage
-simply run "node index" from terminal and follow the prompts
+ewfewf
 
 ## License
 This application is covered by the Creative Commons,MIT License license. 
@@ -26,15 +26,16 @@ This application is covered by the Creative Commons,MIT License license.
 ## Contributing
 If you would like to contribute to this project, please keep in mind:
 <br />
-Just comment your code please. 
+efwef. 
 
 ## Tests
-No testing Framework was used
+fdsfasf
 
 ## Questions
 Find me on Github as: [luiscabrera77](https://github.com/luiscabrera77)
 <br />
-The best way to contact me is to: Write me a detailed email 
+The best way to contact me is to: Just Pull Request 
 <br />
 Happy coding!
-luis.cabrera@gmail.com (mailto:luis.cabrera@gmail.com)
+<br />
+[luiscabrera77] (mailto:luis.cabrera@gmail.com)

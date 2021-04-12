@@ -55,7 +55,8 @@ Find me on Github as: [${info.user_github}](https://github.com/${info.user_githu
 The best way to contact me is to: ${info.user_contact} 
 <br />
 Happy coding!
-${info.user_email} (mailto:${info.user_email})
+<br />
+[${info.user_github}] (mailto:${info.user_email})
 `;
 }
 
