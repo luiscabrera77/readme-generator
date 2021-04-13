@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+// include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
 
@@ -12,27 +12,27 @@ const questions = require("./utils/question-types");
 const ListQuestion = questions.ListQuestion;
 const InputQuestion = questions.InputQuestion;
 
-// TODO: Create an array of questions for user input
-function allQuestions() {
-  qarray = [];
-  qarray.push(new InputQuestion('GitHub username:', 'user_github')),
-  qarray.push(new InputQuestion('Contact email:', 'user_email')),
-  qarray.push(new ListQuestion('Best way to engage with you on this project?', 'user_contact',['just do a Pull Request', 'write me a detailed email', 'schedule a Zoom call'])),
-  qarray.push(new InputQuestion('Project Name:', 'project_title')),
-  qarray.push(new InputQuestion('Project Description:', 'project_description')),
-  qarray.push(new InputQuestion('Installation Instructions:', 'project_installation')),
-  qarray.push(new InputQuestion('How to use the Project:', 'project_usage')),
-  qarray.push(new InputQuestion('Guideliness to contribue to the project:', 'project_contributing')),
-  qarray.push(new InputQuestion('How to test Project:', 'project_test')),
-  qarray.push(new ListQuestion('Select an Open Source License:', 'project_license',['ISC', 'GNU/GPL', 'MIT']))
+// create an array of questions for user input
+const allQuestions = () => {
+  qArray = [];
+  qArray.push(new InputQuestion('GitHub username:', 'user_github')),
+  qArray.push(new InputQuestion('Contact email:', 'user_email')),
+  qArray.push(new ListQuestion('Best way to engage with you on this project?', 'user_contact',['just do a Pull Request', 'write me a detailed email', 'schedule a Zoom call'])),
+  qArray.push(new InputQuestion('Project Name:', 'project_title')),
+  qArray.push(new InputQuestion('Project Description:', 'project_description')),
+  qArray.push(new InputQuestion('Installation Instructions:', 'project_installation')),
+  qArray.push(new InputQuestion('How to use the Project:', 'project_usage')),
+  qArray.push(new InputQuestion('Guideliness to contribue to the project:', 'project_contributing')),
+  qArray.push(new InputQuestion('How to test Project:', 'project_test')),
+  qArray.push(new ListQuestion('Select an Open Source License:', 'project_license',['ISC', 'GNU/GPL', 'MIT']))
 };
 
-function startQuestions() {
-  allQuestions ();
-  return inquirer.prompt(qarray)
+const startQuestions = () => {
+  allQuestions();
+  return inquirer.prompt(qArray)
 };
 
-// TODO: Create a function to initialize app and write README file
+// create a function to initialize app and write README file
 async function init() {
   try {
       const info = await startQuestions();
@@ -44,5 +44,5 @@ async function init() {
   }
 }
 
-// Function call to initialize app
+// function call to initialize app
 init();

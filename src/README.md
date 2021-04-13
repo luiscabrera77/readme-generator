@@ -1,11 +1,11 @@
 
 
-# wd
+# wefewfewf
 
 ## Description
-![badge](https://img.shields.io/badge/license-ISC-blue)
+![badge](https://img.shields.io/badge/license-GNU/GPL-blue)
 
-wd
+wefewf
 
 ![Screenshot](copy here URL of your app screenshot)
 
@@ -18,42 +18,37 @@ wd
 - [Questions](#questions)
 
 ## Installation
-wd
+wef
 
 ## Usage
-wd
+ewfwefw
 
 ## License
 
-ISC License
-(view most recent version at https://spdx.org/licenses/ISC.html)
+GNU General Public License v3.0
+(view most recent AND FULL version at https://spdx.org/licenses/GPL-3.0-or-later.html)
 
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
+Permissions of this strong copyleft license are conditioned on making 
+available complete source code of licensed works and modifications, 
+which include larger works using a licensed work, under the same license. 
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
-OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+Copyright and license notices must be preserved. Contributors provide 
+an express grant of patent rights.
 
 
 ## Contributing
 If you would like to contribute to this project:
 
-**wd**
+**wefewf**
 
 ## Tests
-wd
+efewf
 
 ## Questions
-Find me on Github as: [sdsd](https://github.com/sdsd)
+Find me on Github as: [efwef](https://github.com/efwef)
 
 The best way to engage with me in this project is to just do a Pull Request. 
 
 Happy coding!
 
-wdw
+wefwqf
