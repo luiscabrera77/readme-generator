@@ -1,11 +1,11 @@
 
 
-# wefewfewf
+# wefewf
 
 ## Description
-![badge](https://img.shields.io/badge/license-GNU/GPL-blue)
+![badge](https://img.shields.io/badge/license-ISC-blue)
 
-wefewf
+wegweg
 
 ![Screenshot](copy here URL of your app screenshot)
 
@@ -18,37 +18,42 @@ wefewf
 - [Questions](#questions)
 
 ## Installation
-wef
+wegfweg
 
 ## Usage
-ewfwefw
+ewgweg
 
 ## License
 
-GNU General Public License v3.0
-(view most recent AND FULL version at https://spdx.org/licenses/GPL-3.0-or-later.html)
+ISC License
+(view most recent version at https://spdx.org/licenses/ISC.html)
 
-Permissions of this strong copyleft license are conditioned on making 
-available complete source code of licensed works and modifications, 
-which include larger works using a licensed work, under the same license. 
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
 
-Copyright and license notices must be preserved. Contributors provide 
-an express grant of patent rights.
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 
 ## Contributing
 If you would like to contribute to this project:
 
-**wefewf**
+**esagsgerw**
 
 ## Tests
-efewf
+ewgfweg
 
 ## Questions
-Find me on Github as: [efwef](https://github.com/efwef)
+Find me on Github as: [saef](https://github.com/saef)
 
 The best way to engage with me in this project is to just do a Pull Request. 
 
 Happy coding!
 
-wefwqf
+wefwef

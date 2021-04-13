@@ -5,7 +5,7 @@
 ## Description
 ![badge](https://img.shields.io/badge/license-MIT-blue)
 
-Allows user to quickly create a README file for Github using terminal prompts. It prompts for user details such as GitHub username, email address, and contact preferences, and asks the following details about the project: Name, Description, Installation Instructions, Usage Instructions, License, Contributing Guidelines and Testing. 
+Allows user to quickly create a README file for Github using terminal prompts. It starts by asking GitHub username, email address, and contact preferences, and then asks the following details about the project: Name, Description, Installation Instructions, Usage Instructions, License, Contributing Guidelines and Testing. 
 
 The output is a professionally formated README file in markup with a table of contents, links, badges, full license texts, and contact information.
 
@@ -47,7 +47,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
 SOFTWARE.
-
 
 ## Contributing
 If you would like to contribute to this project:

@@ -8,9 +8,9 @@ const writeFileAsync = util.promisify(fs.writeFile);
 
 // local requirements and exports
 const generateReadme = require("./utils/readme-template");
-const questions = require("./utils/question-types");
-const ListQuestion = questions.ListQuestion;
-const InputQuestion = questions.InputQuestion;
+const questionClasses = require("./utils/question-classes");
+const ListQuestion = questionClasses.ListQuestion;
+const InputQuestion = questionClasses.InputQuestion;
 
 // create an array of questions for user input
 const allQuestions = () => {
