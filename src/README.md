@@ -1,13 +1,13 @@
 
 
-# README Generator
+# wd
 
 ## Description
-![badge](https://img.shields.io/badge/license-MIT-blue)
+![badge](https://img.shields.io/badge/license-ISC-blue)
 
-Allows user to quickly create a README file for Github using terminal prompts. It prompts for user details such as GitHub username, email address, and contact preferences, and asks the following details about the project: Name, Description, Installation Instructions, Usage Instructions, License, Contributing Guidelines and Testing. The output is a professionally formated README file in markup with a table of contents, links, badges and contact information.
+wd
 
-![Readme](https://user-images.githubusercontent.com/54341829/114362651-2f12be80-9b3d-11eb-8edd-916a519eb052.png)
+![Screenshot](copy here URL of your app screenshot)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -18,48 +18,42 @@ Allows user to quickly create a README file for Github using terminal prompts. I
 - [Questions](#questions)
 
 ## Installation
-Download code, init npm, and npm install inquirer.
+wd
 
 ## Usage
-Type "node index" and answer the prompts
+wd
 
 ## License
 
-MIT License Copyright
-(view most recent version at https://spdx.org/licenses/MIT.html)
+ISC License
+(view most recent version at https://spdx.org/licenses/ISC.html)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy 
-of this software and associated documentation files (the "Software"), to deal 
-in the Software without restriction, including without limitation the rights 
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
-copies of the Software, and to permit persons to whom the Software is 
-furnished to do so, subject to the following conditions:
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
 
-The above copyright notice and this permission notice shall be included in all 
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 
 ## Contributing
-If you would like to contribute to this project, please keep in mind:
+If you would like to contribute to this project:
 
-Commenting your code is always a good practice!. 
+**wd**
 
 ## Tests
-No Testing framework was adopted in this project
+wd
 
 ## Questions
-Find me on Github as: [luiscabrera77](https://github.com/luiscabrera77)
+Find me on Github as: [sdsd](https://github.com/sdsd)
 
-The best way to engage with me in this project is to write me a detailed email. 
+The best way to engage with me in this project is to just do a Pull Request. 
 
 Happy coding!
 
-luis.cabrera@gmail.com
+wdw

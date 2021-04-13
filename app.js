@@ -13,30 +13,23 @@ const ListQuestion = questions.ListQuestion;
 const InputQuestion = questions.InputQuestion;
 
 // TODO: Create an array of questions for user input
-const question1 = new InputQuestion("GitHub username:", "user_github");
-const question2 = new InputQuestion("Contact email:", "user_email");
-const question3 = new ListQuestion("Best way to engage with you on this project?", "user_contact",['just do a Pull Request', 'write me a detailed email', 'schedule a Zoom call']);
-const question4 = new InputQuestion("Project Name:", "project_title");
-const question5 = new InputQuestion("Project Description:", "project_description");
-const question6 = new InputQuestion("Installation Instructions:", "project_installation");
-const question7 = new InputQuestion("How to use the Project:", "project_usage");
-const question8 = new InputQuestion("Guideliness to contribue to the project:", "project_contributing");
-const question9 = new InputQuestion("How to test Project:", "project_test");
-const question10 = new ListQuestion("Select an Open Source License:", "project_license",['ISC', 'GNU/GPL', 'MIT']);
+function allQuestions() {
+  qarray = [];
+  qarray.push(new InputQuestion('GitHub username:', 'user_github')),
+  qarray.push(new InputQuestion('Contact email:', 'user_email')),
+  qarray.push(new ListQuestion('Best way to engage with you on this project?', 'user_contact',['just do a Pull Request', 'write me a detailed email', 'schedule a Zoom call'])),
+  qarray.push(new InputQuestion('Project Name:', 'project_title')),
+  qarray.push(new InputQuestion('Project Description:', 'project_description')),
+  qarray.push(new InputQuestion('Installation Instructions:', 'project_installation')),
+  qarray.push(new InputQuestion('How to use the Project:', 'project_usage')),
+  qarray.push(new InputQuestion('Guideliness to contribue to the project:', 'project_contributing')),
+  qarray.push(new InputQuestion('How to test Project:', 'project_test')),
+  qarray.push(new ListQuestion('Select an Open Source License:', 'project_license',['ISC', 'GNU/GPL', 'MIT']))
+};
 
 function startQuestions() {
-  return inquirer.prompt([
-    question1.returnString(), 
-    question2.returnString(), 
-    question3.returnString(), 
-    question4.returnString(), 
-    question5.returnString(), 
-    question6.returnString(), 
-    question7.returnString(), 
-    question8.returnString(), 
-    question9.returnString(),
-    question10.returnString()
-  ])
+  allQuestions ();
+  return inquirer.prompt(qarray)
 };
 
 // TODO: Create a function to initialize app and write README file
