@@ -7,7 +7,7 @@
 
 Allows user to quickly create a README file for Github using terminal prompts. It starts by asking GitHub username, email address, and contact preferences, and then asks the following details about the project: Name, Description, Installation Instructions, Usage Instructions, License, Contributing Guidelines and Testing. 
 
-The output is a professionally formated README file in markup with a table of contents, links, badges, full license texts, and contact information.
+The output is a professionally formatted README file in markup with a table of contents, links, badges, full license texts, and contact information.
 
 ![Readme](https://user-images.githubusercontent.com/54341829/114362651-2f12be80-9b3d-11eb-8edd-916a519eb052.png)
 
