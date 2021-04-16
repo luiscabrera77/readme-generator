@@ -17,7 +17,7 @@ const allQuestions = () => {
   qArray = [];
   qArray.push(new InputQuestion('GitHub username:', 'user_github')),
   qArray.push(new InputQuestion('Contact email:', 'user_email')),
-  qArray.push(new ListQuestion('Best way to engage with you on this project?', 'user_contact',['just do a Pull Request', 'write me a detailed email', 'schedule a Zoom call'])),
+  qArray.push(new ListQuestion('Best way to reach you with additional question?', 'user_contact',['just do a Pull Request', 'write me a detailed email', 'schedule a Zoom call'])),
   qArray.push(new InputQuestion('Project Name:', 'project_title')),
   qArray.push(new InputQuestion('Project Description:', 'project_description')),
   qArray.push(new InputQuestion('Installation Instructions:', 'project_installation')),
@@ -29,7 +29,7 @@ const allQuestions = () => {
 
 const startQuestions = () => {
   allQuestions();
-  return inquirer.prompt(qArray)
+  return inquirer.prompt(qArray);
 };
 
 // create a function to initialize app and write README file

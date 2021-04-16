@@ -101,7 +101,7 @@ ${info.project_test}
 ## Questions
 Find me on Github as: [${info.user_github}](https://github.com/${info.user_github})
 
-The best way to engage with me in this project is to ${info.user_contact}. 
+The best way to reach out with additional questions is to ${info.user_contact}. 
 
 Happy coding!
 
