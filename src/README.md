@@ -1,11 +1,11 @@
 
 
-# wefewf
+# README Generator
 
 ## Description
-![badge](https://img.shields.io/badge/license-ISC-blue)
+![badge](https://img.shields.io/badge/license-GNU/GPL-blue)
 
-wegweg
+Allows user to quickly create a README file for Github using terminal prompts. It starts by asking GitHub username, email address, and contact preferences, and then asks the following details about the project: Name, Description, Installation Instructions, Usage Instructions, License, Contributing Guidelines and Testing. The output is a professionally formatted README file in markup with a table of contents, links, badges, full license texts, and contact information.
 
 ![Screenshot](copy here URL of your app screenshot)
 
@@ -18,42 +18,37 @@ wegweg
 - [Questions](#questions)
 
 ## Installation
-wegfweg
+Download code, run "init npm" in the terminal, and also "npm install inquirer".
 
 ## Usage
-ewgweg
+Type "node index" and answer the prompts. If completed succesfully, the README file will be placed in the "src" folder.
 
 ## License
 
-ISC License
-(view most recent version at https://spdx.org/licenses/ISC.html)
+GNU General Public License v3.0
+(view most recent AND FULL version at https://spdx.org/licenses/GPL-3.0-or-later.html)
 
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
+Permissions of this strong copyleft license are conditioned on making 
+available complete source code of licensed works and modifications, 
+which include larger works using a licensed work, under the same license. 
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
-OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+Copyright and license notices must be preserved. Contributors provide 
+an express grant of patent rights.
 
 
 ## Contributing
 If you would like to contribute to this project:
 
-**esagsgerw**
+**Commenting your code is always a good practice!**
 
 ## Tests
-ewgfweg
+No Testing framework was adopted in this project
 
 ## Questions
-Find me on Github as: [saef](https://github.com/saef)
+Find me on Github as: [luiscabrera77](https://github.com/luiscabrera77)
 
-The best way to engage with me in this project is to just do a Pull Request. 
+The best way to engage with me in this project is to write me a detailed email. 
 
 Happy coding!
 
-wefwef
+luis.cabrera@gmail.com
