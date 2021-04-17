@@ -20,7 +20,7 @@ The output is a professionally formatted README file in markup with a table of c
 - [Questions](#questions)
 
 ## Installation
-Download code, run "init npm" in the terminal, and also "npm install inquirer".
+Download code, run "npm init" in the terminal, and also "npm install inquirer".
 
 ## Usage
 Type "node index" and answer the prompts. If completed succesfully, the README file will be placed in the "src" folder.

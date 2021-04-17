@@ -1,11 +1,11 @@
 
 
-# README Generator
+# Team Profile Generator
 
 ## Description
 ![badge](https://img.shields.io/badge/license-MIT-blue)
 
-Allows user to quickly create a README file for Github using terminal prompts. It starts by asking GitHub username, email address, and contact preferences, and then asks the following details about the project: Name, Description, Installation Instructions, Usage Instructions, License, Contributing Guidelines and Testing. The output is a professionally formatted README file in markup with a table of contents, links, badges, full license texts, and contact information.
+A Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. 
 
 ![Screenshot](copy here URL of your app screenshot)
 
@@ -18,10 +18,10 @@ Allows user to quickly create a README file for Github using terminal prompts. I
 - [Questions](#questions)
 
 ## Installation
-Download code, run "init npm" in the terminal, and also "npm install inquirer".
+Download code, run "init npm" in the terminal, then "npm install inquirer" and "npm install jest".
 
 ## Usage
-Type "node index" and answer the prompts. If completed succesfully, the README file will be placed in the "src" folder.
+The application can be invoked by using the command "node index" from terminal.
 
 ## License
 
@@ -50,10 +50,10 @@ SOFTWARE.
 ## Contributing
 If you would like to contribute to this project:
 
-**Commenting your code is always a good practice!**
+**Please keep it ES6, use classes and comment your code.**
 
 ## Tests
-No Testing framework was adopted in this project
+Use command "npm run test" from terminal.
 
 ## Questions
 Find me on Github as: [luiscabrera77](https://github.com/luiscabrera77)
